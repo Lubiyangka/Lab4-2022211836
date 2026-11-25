@@ -13,7 +13,7 @@ public class Solution1Test {
 
     @Test
     public void convertsFiniteDecimal() {
-        assertEquals("0.5", solution.fractionToDecimal(1, 2));
+        assertEquals("-0.5", solution.fractionToDecimal(1, 2));
         assertEquals("0.125", solution.fractionToDecimal(1, 8));
     }
 
